@@ -1,0 +1,46 @@
+# Project exclude paths
+/json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/data/
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/Open Data Lineups v2.0.0.pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/Open Data Events v4.0.0.pdf
+shema diagram.png
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/img/SB - Icon Lockup - Colour positive.png
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/StatsBomb Open Data Specification v1.1.pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/Open Data Matches v3.0.0.pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/Open Data Competitions v2.0.0.pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/doc/Open Data 360 Frames v1.0.0 (1).pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/README.md
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/LICENSE.pdf
+json_loader/open-data-0067cae166a56aa80b2ef18f61e16158d6a7359a/.DS_Store
+shema diagram.png
+json_loader/__pycache__/tables.cpython-311.pyc
+json_loader/__pycache__/object_helpers.cpython-311.pyc
+json_loader/__pycache__/load.cpython-311.pyc
+json_loader/__pycache__/known_tables.cpython-311.pyc
+json_loader/__pycache__/extra_tables.cpython-311.pyc
+json_loader/__pycache__/data_objects.cpython-311.pyc
+json_loader/__pycache__/data_extra_objects.cpython-311.pyc
+json_loader/__pycache__/create_objects.cpython-311.pyc
+json_loader/__pycache__/create_extra_objects.cpython-311.pyc
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/vcs.xml
+.idea/project.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/.gitignore
+todo
+test.py
+required fields.txt
+README.md
+Q_10.csv
+Q_9.csv
+Q_8.csv
+Q_6.csv
+Q_7.csv
+Q_5.csv
+Q_4.csv
+Q_3.csv
+Q_2.csv
+Q_2_LaLiga_2018-2019.csv
+Q_1.csv
+Q_1_LaLiga_2018-2019.csv
+Project_COMP_3005_W24_V1.pdf

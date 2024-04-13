@@ -1,0 +1,42 @@
+SELECT
+ player_name,
+ COUNT (player_id)
+FROM
+ competition
+ inner join match on competition_id = comp_id and competition.season_id = match.season_id
+ inner join event using(match_id)
+ inner join event_shot using (event_id)
+ inner join event_player using(player_id)
+Where
+ comp_id = 11 and
+ event_shot.end_location_x = 120 and
+ event_shot.end_location_z > 1.335 and
+ event_shot.end_location_z < 2.67 and
+ ((event_shot.end_location_y >= 36 and event_shot.end_location_y <= 38.666666666666666) or
+ (event_shot.end_location_y <= 44 and event_shot.end_location_y >= 41.33333333333333333))
+GROUP BY
+ player_name
+ORDER BY
+ COUNT (player_id) desc;
+
+SELECT
+ team_name,
+ COUNT (team_id)
+FROM
+ competition
+ inner join match on competition_id = comp_id and competition.season_id = match.season_id
+ inner join event using(match_id)
+ inner join event_pass using (event_id)
+ inner join match_team using(team_id)
+Where
+ comp_id = 11 and
+ competition.season_id = 90 and
+ event_pass.outcome_id is null and
+ event_pass.end_location_x <= 120 and
+ event_pass.end_location_x >= 102 and
+ event_pass.end_location_y <= 62 and
+ event_pass.end_location_y >= 18
+GROUP BY
+ team_name
+ORDER BY
+ COUNT (team_id) desc;
